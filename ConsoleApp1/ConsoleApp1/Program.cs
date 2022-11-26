@@ -32,7 +32,7 @@ namespace ConsoleApp1
                         string FirstName = reader.GetString(2);
                         int age = reader.GetInt32(3);
 
-
+                        // Base
 
                         Console.WriteLine("{0} \t{1} \t{2} \t{3}", id, Name, FirstName, age);
                     }
